@@ -15,8 +15,8 @@ public:
 	Room(int, int, int, int);
 
 	void Maker(int, int, int, int);
-	bool IsConflict(const Room& rm);
-	bool IsConflict(int, int, int, int);
+	bool IsConflict(const Room& rm) const;
+	bool IsConflict(int, int, int, int) const;
 
 	/*
 	~Room();
