@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FindRandomMap.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{111A6F30-885F-418B-B5E6-20BABD9CE0AE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FindRandomMap.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FindRandomMapEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{48FF5E0B-D73B-4AF3-86F3-92B4D8DA43CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FindRandomMap">
+      <UniqueIdentifier>{36A6B3F0-6CEF-4328-80A9-6068FA34B379}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FindRandomMap\FindRandomMap.Build.cs">
+      <Filter>Source\FindRandomMap</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FindRandomMap\FindRandomMap.cpp">
+      <Filter>Source\FindRandomMap</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FindRandomMap\FindRandomMap.h">
+      <Filter>Source\FindRandomMap</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FindRandomMap\FindRandomMapCharacter.cpp">
+      <Filter>Source\FindRandomMap</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FindRandomMap\FindRandomMapCharacter.h">
+      <Filter>Source\FindRandomMap</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FindRandomMap\FindRandomMapGameMode.cpp">
+      <Filter>Source\FindRandomMap</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FindRandomMap\FindRandomMapGameMode.h">
+      <Filter>Source\FindRandomMap</Filter>
+    </ClInclude>
+    <Filter Include="Source\PMG">
+      <UniqueIdentifier>{E7223FEC-4144-44EE-9540-D146B914A5A4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PMG\MapGenerator.cpp">
+      <Filter>Source\PMG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PMG\MapGenerator.h">
+      <Filter>Source\PMG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PMG\MyActor.cpp">
+      <Filter>Source\PMG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PMG\MyActor.h">
+      <Filter>Source\PMG</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PMG\PMG.Build.cs">
+      <Filter>Source\PMG</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PMG\PMG.cpp">
+      <Filter>Source\PMG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PMG\PMG.h">
+      <Filter>Source\PMG</Filter>
+    </ClInclude>
+    <Filter Include="Source\RoadFC">
+      <UniqueIdentifier>{E6E2F9B4-E084-4555-8C70-38602C5DEE9B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RoadFC\RoadFC.Build.cs">
+      <Filter>Source\RoadFC</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RoadFC\RoadFC.cpp">
+      <Filter>Source\RoadFC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RoadFC\RoadFC.h">
+      <Filter>Source\RoadFC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\RoadFC\Test.h">
+      <Filter>Source\RoadFC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\RoadFC\Test.cpp">
+      <Filter>Source\RoadFC</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

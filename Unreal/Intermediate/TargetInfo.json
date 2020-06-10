@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FindRandomMap",
+			"Path": "F:\\Programing\\Usage\\UDK\\FindRandomMap\\Source\\FindRandomMap.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FindRandomMapEditor",
+			"Path": "F:\\Programing\\Usage\\UDK\\FindRandomMap\\Source\\FindRandomMapEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

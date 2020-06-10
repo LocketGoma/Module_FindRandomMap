@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PMG.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Programing\Usage\UDK\FindRandomMap\Intermediate\Build\Win64\FindRandomMapEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\Programing\Usage\UDK\FindRandomMap\Intermediate\Build\Win64\UE4Editor\Development\PMG\MapGenerator.cpp.obj"
+"F:\Programing\Usage\UDK\FindRandomMap\Intermediate\Build\Win64\UE4Editor\Development\PMG\MyActor.cpp.obj"
+"F:\Programing\Usage\UDK\FindRandomMap\Intermediate\Build\Win64\UE4Editor\Development\PMG\PMG.cpp.obj"
+"F:\Programing\Usage\UDK\FindRandomMap\Intermediate\Build\Win64\UE4Editor\Development\PMG\MyActor.gen.cpp.obj"
+"F:\Programing\Usage\UDK\FindRandomMap\Intermediate\Build\Win64\UE4Editor\Development\PMG\PMG.init.gen.cpp.obj"
+"F:\Programing\Usage\UDK\FindRandomMap\Intermediate\Build\Win64\UE4Editor\Development\PMG\Default.rc2.res"
+/OUT:"F:\Programing\Usage\UDK\FindRandomMap\Intermediate\Build\Win64\UE4Editor\Development\PMG\UE4Editor-PMG.lib"
+/INCLUDE:IMPLEMENT_MODULE_PMG
